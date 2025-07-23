@@ -14,4 +14,6 @@ END:IMELODY`
 );
 ```
 
+See index.html for an example of how to include the library on the page.
+
 Run `npx serve .` to run the example locally.
