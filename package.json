@@ -1,0 +1,33 @@
+{
+  "name": "imelody-play",
+  "version": "1.0.0",
+  "description": "Play back iMelody format used in SMS message",
+  "keywords": [
+    "imelody",
+    "SMS",
+    "GSM-03.40",
+    "PDU"
+  ],
+  "homepage": "https://github.com/siemens-mobile-hacks/imelody-play#readme",
+  "bugs": {
+    "url": "https://github.com/siemens-mobile-hacks/imelody-play/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/siemens-mobile-hacks/imelody-play.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Konstantin Pereiaslov",
+    "url": "https://github.com/perk11"
+  },
+  "type": "module",
+  "exports": {
+    ".": "./imelody.js"
+  },
+  "types": "./imelody.d.ts",
+  "files": [
+    "imelody.js",
+    "imelody.d.ts"
+  ]
+}
