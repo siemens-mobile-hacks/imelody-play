@@ -1,6 +1,6 @@
 {
   "name": "imelody-play",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Play back iMelody format used in SMS message",
   "keywords": [
     "imelody",
