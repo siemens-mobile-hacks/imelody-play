@@ -10,7 +10,7 @@ npm add imelody-play
 ## Example use
 
 ```js
-import {playIMelody} from "imelody-play";
+import {playIMelody} from "./node_modules/imelody-play/imelody.js";
 playIMelody(`BEGIN:IMELODY
 VERSION:1.2
 FORMAT:CLASS1.0
@@ -21,5 +21,5 @@ END:IMELODY`
 ```
 Note: browsers require a user interaction to play sound, in practice, you'll want to bind this to a click or a similar event.
 
-See index.html for an example of a click event and how to include the library on a page without npm.
+See index.html for an example of a click event.
 Run `npx serve .` to run the example locally.
